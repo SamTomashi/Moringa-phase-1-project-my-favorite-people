@@ -8,7 +8,47 @@
     <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="">
+                <h6 class="display-6 text-center text-uppercase">
+                    Search a person to add to your favorite list.
+                  </h6>
+                <img id="randomPerson" class="w-50 rounded mx-auto d-block img-thumbnail"/>
+
+                <form id="search-form" class="row g-3 m-3 d-flex justify-content-center">
+                    <div class="col-auto">
+                        <small for="gender">Gender</small>
+                        <select id="gender" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Gender</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                          </select>
+                    </div>
+                    <div class="col-auto">
+                      <small for="minAge">Min Age</small>
+                      <input type="number" class="form-control form-control-sm" id="minAge" min="5" max="100" placeholder="5">
+                    </div>
+                    <div class="col-auto">
+                        <small for="maxAge">Max Age</small>
+                        <input type="number" class="form-control form-control-sm" id="maxAge" min="5" max="100" placeholder="100">
+                      </div>
+                    <div class="col-auto">
+                      <small>.</small>
+                      <button type="submit" class="btn btn-sm btn-outline-dark mb-3 d-flex align-items-cente">Search</button>
+                    </div>
+                  </form>
+                  <div class="d-flex justify-content-center">
+                    <button id="btn-save" class="btn btn-sm btn-outline-success text-uppercase">Save this person</button>
+                  </div>
+            </div>
+            <div class="w-50">
+                <div id="favorite-people" class="row row-cols-1 row-cols-md-2 g-4">
+                                  
+                  </div>
+            </div>
+        </div>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
