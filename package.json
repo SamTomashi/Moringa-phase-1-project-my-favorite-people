@@ -1,0 +1,19 @@
+{
+  "name": "people",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamTomashi/Moringa-phase-1-project-my-favorite-people.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamTomashi/Moringa-phase-1-project-my-favorite-people/issues"
+  },
+  "homepage": "https://github.com/SamTomashi/Moringa-phase-1-project-my-favorite-people#readme"
+}
